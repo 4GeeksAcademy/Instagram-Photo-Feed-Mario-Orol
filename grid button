@@ -1,0 +1,85 @@
+<div
+        class="d-flex justify-content-center"
+      >
+        <div
+          class="btn-group text-primary"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <!-- Grid Button -->
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio1"
+            autocomplete="off"
+            checked
+          />
+          <label
+            class="btn border-0"
+            for="btnradio1"
+            data-bs-toggle="pill"
+            data-bs-target="#gridView"
+          >
+            <i class="fa-solid fa-table-cells"></i>
+          </label>
+    
+          <!-- Post Button -->
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio2"
+            autocomplete="off"
+          />
+          <label
+            class="btn border-0"
+            for="btnradio2"
+            data-bs-toggle="pill"
+            data-bs-target="#postView"
+          >
+            <i class="fa-solid fa-square"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+       <!-- <ul
+        class="nav nav-pills justify-content-center mb-3"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link bg-light text-primary"
+            id="pills-grid-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-grid"
+            type="button"
+            role="tab"
+            aria-controls="pills-grid"
+            aria-selected="true"
+          >
+            <i class="fa-solid fa-table-cells"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link bg-light text-primary"
+            id="pills-post-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-post"
+            type="button"
+            role="tab"
+            aria-controls="pills-post"
+            aria-selected="false"
+          >
+            <i class="fa-solid fa-square"></i>
+          </button>
+        </li>
+      </ul> -->
